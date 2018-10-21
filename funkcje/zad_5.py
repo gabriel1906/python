@@ -20,6 +20,12 @@ koszt = obliczenie_kosztu(*dane)
 
 print(koszt)
 
+def drukuj_wynik(miasto_A, miasto_B, dystans, spalanie, cena_paliwa):
+    koszt = obliczenie_kosztu(dystans, spalanie, cena_paliwa)
+    output = f'''
+    miasto A: {miasto_A}
+    miasto B: {miasto_B
+    '''
 
 #  prezentacja danych
 
